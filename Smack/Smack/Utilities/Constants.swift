@@ -15,7 +15,7 @@ let BASE_URL = "https://chatswiftcd.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
 let URL_LOGIN = "\(BASE_URL)account/login"
 let URL_USER_ADD = "\(BASE_URL)user/add"
-let URL_USER_BY_EMAIL = "\(BASE_URL)user/"
+let URL_USER_BY_EMAIL = "\(BASE_URL)user/byEmail/"
 
 // Colors
 let smackPurpleplaceholder = #colorLiteral(red: 0.2156862745, green: 0.4215201139, blue: 0.7752227187, alpha: 0.5)
