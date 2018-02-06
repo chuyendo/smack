@@ -77,7 +77,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="zW8-En-tIV">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="zW8-En-tIV" customClass="ChannelCell" customModule="Smack" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zW8-En-tIV" id="gG0-zX-g8N">
@@ -85,18 +85,21 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#general" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TdC-8b-aXT">
-                                                    <rect key="frame" x="28" y="11" width="65.5" height="20"/>
+                                                    <rect key="frame" x="28" y="11" width="66" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="TdC-8b-aXT" firstAttribute="centerY" secondItem="gG0-zX-g8N" secondAttribute="centerY" id="6uo-UN-6YN"/>
                                                 <constraint firstItem="TdC-8b-aXT" firstAttribute="leading" secondItem="gG0-zX-g8N" secondAttribute="leadingMargin" constant="20" id="iRy-kV-21T"/>
+                                                <constraint firstItem="TdC-8b-aXT" firstAttribute="top" secondItem="gG0-zX-g8N" secondAttribute="topMargin" constant="3" id="m7d-Lj-2UE"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="TdC-8b-aXT" id="9H7-Kk-eGi"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -127,6 +130,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="dZG-94-7tf" id="D4O-lJ-jU0"/>
+                        <outlet property="tableView" destination="umo-PV-zJA" id="q5S-YX-EJF"/>
                         <outlet property="userImg" destination="CRn-AP-GpN" id="fdD-gs-jHo"/>
                         <segue destination="ekc-NR-qbe" kind="show" identifier="toLogin" id="OF6-H8-h3m"/>
                     </connections>
