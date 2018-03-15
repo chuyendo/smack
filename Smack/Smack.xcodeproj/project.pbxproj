@@ -16,12 +16,16 @@
 		0462E5E7201AF3C600D6D44E /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462E5E6201AF3C600D6D44E /* MessageService.swift */; };
 		0462E5EA201AF47F00D6D44E /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462E5E9201AF47F00D6D44E /* Channel.swift */; };
 		0492F3991FCF0E350091252B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492F3971FCF0E340091252B /* SWRevealViewController.m */; };
+		04958BA42059845C00400617 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04958BA32059845C00400617 /* SocketService.swift */; };
+		04958BA62059846600400617 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04958BA52059846600400617 /* Message.swift */; };
+		04958BAB205985B000400617 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04958BAA205985B000400617 /* KeyboardBoundView.swift */; };
 		04A94E96200D1025006BAED3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A94E94200D1025006BAED3 /* ProfileVC.swift */; };
 		04A94E97200D1025006BAED3 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A94E95200D1025006BAED3 /* ProfileVC.xib */; };
 		04C80EC01FD7B42100FB5917 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C80EBF1FD7B42100FB5917 /* CreateAccountVC.swift */; };
 		04CEA1561FCFD081000F641C /* GiadientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEA1551FCFD081000F641C /* GiadientView.swift */; };
 		04DD712E1FF0071D00B8187C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD712D1FF0071D00B8187C /* RoundedButton.swift */; };
 		04EB79631FD5AEAA00E0B90C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB79621FD5AEAA00E0B90C /* LoginVC.swift */; };
+		04EB9F56205ACC03002C1CEF /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB9F55205ACC03002C1CEF /* AddChannelVC.swift */; };
 		04F1562B1FEAC164002BB8DA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1562A1FEAC164002BB8DA /* AuthService.swift */; };
 		2F34E62708C8523E3B148AB2 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3533BA0C4C1F17B8A7E6890A /* Pods_Smack.framework */; };
 		F932BF2D1F19A88100EBDCFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F932BF2C1F19A88100EBDCFC /* AppDelegate.swift */; };
@@ -43,12 +47,17 @@
 		0462E5E9201AF47F00D6D44E /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		0492F3971FCF0E340091252B /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
 		0492F3981FCF0E350091252B /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
+		04958BA22059845200400617 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddChannelVC.xib; path = "../../../../../Downloads/team-devslopes-app-smack-8a7deed13922/Smack/XIBs/AddChannelVC.xib"; sourceTree = "<group>"; };
+		04958BA32059845C00400617 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SocketService.swift; path = "../../../../../Downloads/team-devslopes-app-smack-8a7deed13922/Smack/Services/SocketService.swift"; sourceTree = "<group>"; };
+		04958BA52059846600400617 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "../../../../../Downloads/team-devslopes-app-smack-8a7deed13922/Smack/Model/Message.swift"; sourceTree = "<group>"; };
+		04958BAA205985B000400617 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KeyboardBoundView.swift; path = "../../../../Smack Assets/KeyboardBind View/KeyboardBoundView.swift"; sourceTree = "<group>"; };
 		04A94E94200D1025006BAED3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		04A94E95200D1025006BAED3 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		04C80EBF1FD7B42100FB5917 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		04CEA1551FCFD081000F641C /* GiadientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiadientView.swift; sourceTree = "<group>"; };
 		04DD712D1FF0071D00B8187C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		04EB79621FD5AEAA00E0B90C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		04EB9F55205ACC03002C1CEF /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddChannelVC.swift; path = "../../../../../Downloads/team-devslopes-app-smack-8a7deed13922/Smack/Controller/AddChannelVC.swift"; sourceTree = "<group>"; };
 		04F1562A1FEAC164002BB8DA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3533BA0C4C1F17B8A7E6890A /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		744F8A72AFC8AF2A24103AF0 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				0462E5E9201AF47F00D6D44E /* Channel.swift */,
+				04958BA52059846600400617 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				04A94E95200D1025006BAED3 /* ProfileVC.xib */,
+				04958BA22059845200400617 /* AddChannelVC.xib */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
@@ -108,6 +119,7 @@
 				0435F4761FFFDE400092C2B0 /* AvatarCell.swift */,
 				040DFCF7200520FD00FA45E5 /* CircleImage.swift */,
 				040FDD8520288CEB00622873 /* ChannelCell.swift */,
+				04958BAA205985B000400617 /* KeyboardBoundView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -118,6 +130,7 @@
 				04F1562A1FEAC164002BB8DA /* AuthService.swift */,
 				0402CD9B1FF3FC9700D66752 /* UserDataService.swift */,
 				0462E5E6201AF3C600D6D44E /* MessageService.swift */,
+				04958BA32059845C00400617 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -195,6 +208,7 @@
 				04C80EBF1FD7B42100FB5917 /* CreateAccountVC.swift */,
 				043F97491FFE8B4900435327 /* AvatarPickerVC.swift */,
 				04A94E94200D1025006BAED3 /* ProfileVC.swift */,
+				04EB9F55205ACC03002C1CEF /* AddChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -335,11 +349,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04958BAB205985B000400617 /* KeyboardBoundView.swift in Sources */,
 				04A94E96200D1025006BAED3 /* ProfileVC.swift in Sources */,
 				040FDD8620288CEB00622873 /* ChannelCell.swift in Sources */,
 				F932BF491F19AB5200EBDCFC /* ChannelVC.swift in Sources */,
 				043F974A1FFE8B4900435327 /* AvatarPickerVC.swift in Sources */,
 				04DD712E1FF0071D00B8187C /* RoundedButton.swift in Sources */,
+				04EB9F56205ACC03002C1CEF /* AddChannelVC.swift in Sources */,
 				0462E5EA201AF47F00D6D44E /* Channel.swift in Sources */,
 				040DFCF8200520FD00FA45E5 /* CircleImage.swift in Sources */,
 				0462E5E7201AF3C600D6D44E /* MessageService.swift in Sources */,
@@ -352,7 +368,9 @@
 				0435F4771FFFDE400092C2B0 /* AvatarCell.swift in Sources */,
 				F932BF2D1F19A88100EBDCFC /* AppDelegate.swift in Sources */,
 				04426C5D1FD5675900C6229B /* Constants.swift in Sources */,
+				04958BA62059846600400617 /* Message.swift in Sources */,
 				04C80EC01FD7B42100FB5917 /* CreateAccountVC.swift in Sources */,
+				04958BA42059845C00400617 /* SocketService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
