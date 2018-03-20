@@ -2,7 +2,7 @@
 //  AddChannelVC.swift
 //  Smack
 //
-//  Created by mac on 2/7/18.
+//  Created by mac on 3/20/18.
 //  Copyright © 2018 Jonny B. All rights reserved.
 //
 
@@ -21,13 +21,6 @@ class AddChannelVC: UIViewController {
     }
     
     @IBAction func createChannelPressed(_ sender: Any) {
-        guard let channelName = nameTxt.text, nameTxt.text != "" else { return }
-        guard let channelDesc = chanDesc.text else { return }
-        SocketService.instance.addChannel(channelName: channelName, channelDescription: channelDesc) { (success) in
-            if success {
-                self.dismiss(animated: true, completion: nil)
-            }
-        }
     }
     
     @IBAction func closeModalPressed(_ sender: Any) {
@@ -38,11 +31,11 @@ class AddChannelVC: UIViewController {
         let closeTouch = UITapGestureRecognizer(target: self, action: #selector(AddChannelVC.closeTap(_:)))
         bgView.addGestureRecognizer(closeTouch)
         
-        nameTxt.attributedPlaceholder = NSAttributedString(string: "name", attributes: [NSAttributedStringKey.foregroundColor : smackPurpleplaceholder])
-        chanDesc.attributedPlaceholder = NSAttributedString(string: "description", attributes: [NSAttributedStringKey.foregroundColor : smackPurpleplaceholder])
+        nameTxt.attributedPlaceholder = NSAttributedString(string: "name", attributes: [NSAttributedStringKey.foregroundColor: smackPurpleplaceholder])
+        chanDesc.attributedPlaceholder = NSAttributedString(string: "description", attributes: [NSAttributedStringKey.foregroundColor: smackPurpleplaceholder])
     }
     
-    @objc func closeTap(_ recognize: UITapGestureRecognizer) {
+    @objc func closeTap(_ recognizer: UITapGestureRecognizer) {
         dismiss(animated: true, completion: nil)
     }
 }
