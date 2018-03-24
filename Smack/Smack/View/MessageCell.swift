@@ -2,7 +2,7 @@
 //  MessageCell.swift
 //  Smack
 //
-//  Created by mac on 3/5/18.
+//  Created by mac on 3/24/18.
 //  Copyright © 2018 Jonny B. All rights reserved.
 //
 
@@ -26,4 +26,5 @@ class MessageCell: UITableViewCell {
         userImg.image = UIImage(named: message.userAvatar)
         userImg.backgroundColor = UserDataService.instance.returnUIColor(component: message.userAvatarColor)
     }
+
 }
