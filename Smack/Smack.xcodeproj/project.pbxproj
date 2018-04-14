@@ -19,14 +19,14 @@
 		04494D57205EC5CB00DA71EE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04494D56205EC5CB00DA71EE /* Message.swift */; };
 		0462E5E7201AF3C600D6D44E /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462E5E6201AF3C600D6D44E /* MessageService.swift */; };
 		0462E5EA201AF47F00D6D44E /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462E5E9201AF47F00D6D44E /* Channel.swift */; };
-		0492F3991FCF0E350091252B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492F3971FCF0E340091252B /* SWRevealViewController.m */; };
-		04958BAB205985B000400617 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04958BAA205985B000400617 /* KeyboardBoundView.swift */; };
 		04A94E96200D1025006BAED3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A94E94200D1025006BAED3 /* ProfileVC.swift */; };
 		04A94E97200D1025006BAED3 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A94E95200D1025006BAED3 /* ProfileVC.xib */; };
 		04C80EC01FD7B42100FB5917 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C80EBF1FD7B42100FB5917 /* CreateAccountVC.swift */; };
 		04CEA1561FCFD081000F641C /* GiadientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEA1551FCFD081000F641C /* GiadientView.swift */; };
 		04CEEA2920663CE80021DF32 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEEA2820663CE80021DF32 /* MessageCell.swift */; };
 		04DD712E1FF0071D00B8187C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD712D1FF0071D00B8187C /* RoundedButton.swift */; };
+		04E148D220821D4E009DEF25 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E148D120821D4E009DEF25 /* KeyboardBoundView.swift */; };
+		04E148D520821D5B009DEF25 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E148D320821D5B009DEF25 /* SWRevealViewController.m */; };
 		04EB79631FD5AEAA00E0B90C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB79621FD5AEAA00E0B90C /* LoginVC.swift */; };
 		04F1562B1FEAC164002BB8DA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1562A1FEAC164002BB8DA /* AuthService.swift */; };
 		2F34E62708C8523E3B148AB2 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3533BA0C4C1F17B8A7E6890A /* Pods_Smack.framework */; };
@@ -51,15 +51,15 @@
 		04494D56205EC5CB00DA71EE /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		0462E5E6201AF3C600D6D44E /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		0462E5E9201AF47F00D6D44E /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
-		0492F3971FCF0E340091252B /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = "<group>"; };
-		0492F3981FCF0E350091252B /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = "<group>"; };
-		04958BAA205985B000400617 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KeyboardBoundView.swift; path = "../../../../Smack Assets/KeyboardBind View/KeyboardBoundView.swift"; sourceTree = "<group>"; };
 		04A94E94200D1025006BAED3 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		04A94E95200D1025006BAED3 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		04C80EBF1FD7B42100FB5917 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		04CEA1551FCFD081000F641C /* GiadientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiadientView.swift; sourceTree = "<group>"; };
 		04CEEA2820663CE80021DF32 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		04DD712D1FF0071D00B8187C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		04E148D120821D4E009DEF25 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KeyboardBoundView.swift; path = "Smack Assets/KeyboardBind View/KeyboardBoundView.swift"; sourceTree = SOURCE_ROOT; };
+		04E148D320821D5B009DEF25 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
+		04E148D420821D5B009DEF25 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
 		04EB79621FD5AEAA00E0B90C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		04F1562A1FEAC164002BB8DA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		3533BA0C4C1F17B8A7E6890A /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +122,7 @@
 				0435F4761FFFDE400092C2B0 /* AvatarCell.swift */,
 				040DFCF7200520FD00FA45E5 /* CircleImage.swift */,
 				040FDD8520288CEB00622873 /* ChannelCell.swift */,
-				04958BAA205985B000400617 /* KeyboardBoundView.swift */,
+				04E148D120821D4E009DEF25 /* KeyboardBoundView.swift */,
 				04CEEA2820663CE80021DF32 /* MessageCell.swift */,
 			);
 			path = View;
@@ -196,8 +196,8 @@
 		F932BF3E1F19A96200EBDCFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0492F3981FCF0E350091252B /* SWRevealViewController.h */,
-				0492F3971FCF0E340091252B /* SWRevealViewController.m */,
+				04E148D420821D5B009DEF25 /* SWRevealViewController.h */,
+				04E148D320821D5B009DEF25 /* SWRevealViewController.m */,
 				F932BF3F1F19A97000EBDCFC /* Smack-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
@@ -344,7 +344,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -354,7 +354,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04958BAB205985B000400617 /* KeyboardBoundView.swift in Sources */,
 				04A94E96200D1025006BAED3 /* ProfileVC.swift in Sources */,
 				040FDD8620288CEB00622873 /* ChannelCell.swift in Sources */,
 				F932BF491F19AB5200EBDCFC /* ChannelVC.swift in Sources */,
@@ -366,11 +365,12 @@
 				040DFCF8200520FD00FA45E5 /* CircleImage.swift in Sources */,
 				0462E5E7201AF3C600D6D44E /* MessageService.swift in Sources */,
 				F932BF471F19AB4200EBDCFC /* ChatVC.swift in Sources */,
+				04E148D520821D5B009DEF25 /* SWRevealViewController.m in Sources */,
 				0402CD9C1FF3FC9700D66752 /* UserDataService.swift in Sources */,
 				04EB79631FD5AEAA00E0B90C /* LoginVC.swift in Sources */,
+				04E148D220821D4E009DEF25 /* KeyboardBoundView.swift in Sources */,
 				04F1562B1FEAC164002BB8DA /* AuthService.swift in Sources */,
 				04494D55205EC5AD00DA71EE /* SocketService.swift in Sources */,
-				0492F3991FCF0E350091252B /* SWRevealViewController.m in Sources */,
 				04CEA1561FCFD081000F641C /* GiadientView.swift in Sources */,
 				04494D57205EC5CB00DA71EE /* Message.swift in Sources */,
 				0435F4771FFFDE400092C2B0 /* AvatarCell.swift in Sources */,
